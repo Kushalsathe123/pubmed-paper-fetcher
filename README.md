@@ -38,7 +38,7 @@ python -m pubmed_paper_fetcher.cli "cancer therapy" --email "kushalsathe1@gmail.
 
 Example to save results to results.csv:
 ```sh
-get-papers-list "cancer therapy" --email "kushalsathe1@gmail.com" -f results.csv
+python -m pubmed_paper_fetcher.cli "cancer therapy" --email "kushalsathe1@gmail.com" -f results.csv
 ```
 
 ### Python Module Usage

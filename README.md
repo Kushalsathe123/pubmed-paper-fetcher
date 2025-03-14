@@ -24,7 +24,7 @@ pip install --index-url https://test.pypi.org/simple/ --no-deps pubmed-paper-fet
 ### Command-Line Interface (CLI)
 After installation, you can run the tool from the terminal:
 ```sh
-get-papers-list "cancer therapy" --email "kushalsathe1@gmail.com"
+python -m pubmed_paper_fetcher.cli "cancer therapy" --email "kushalsathe1@gmail.com"
 ```
 
 ### CLI Options:

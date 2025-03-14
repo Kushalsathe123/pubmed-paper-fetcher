@@ -1,0 +1,13 @@
+# IDE and Editor settings
+.vscode/
+
+
+# Git-specific files
+.git/
+*.swp
+*.swo
+
+dist/
+
+*.csv
+output.csv

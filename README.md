@@ -61,43 +61,8 @@ papers = {pmid: PubMedParser.parse_article(pmid, article) for pmid, article in a
 print(papers[next(iter(papers))])
 ```
 
-## 🛠 Development Setup
 
-### Clone the Repository
-```sh
-git clone https://github.com/yourusername/pubmed-paper-fetcher.git
-cd pubmed-paper-fetcher
-```
-
-### Install Dependencies
-```sh
-poetry install
-```
-
-### Run Tests
-```sh
-pytest
-```
-
-## 🛠 Build & Publish Package
-
-### 1️⃣ Build the Package
-```sh
-poetry build
-```
-
-### 2️⃣ Publish to TestPyPI
-First, configure TestPyPI as a repository:
-```sh
-poetry config repositories.testpypi https://test.pypi.org/legacy/
-```
-
-Then, publish your package:
-```sh
-poetry publish -r testpypi --username **token** --password YOUR_TEST_PYPI_API_TOKEN
-```
-
-Your package will be available at:
+The package will be available at:
 ```
 https://test.pypi.org/project/pubmed-paper-fetcher-kushal/
 ```

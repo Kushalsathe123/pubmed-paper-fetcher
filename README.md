@@ -42,6 +42,7 @@ python -m pubmed_paper_fetcher.cli "cancer therapy" --email "kushalsathe1@gmail.
 ```
 
 ### Python Module Usage
+I have already provide the example_usage file for refrence.
 You can also use this package in your Python scripts:
 ```python
 from pubmed_paper_fetcher.api import PubMedAPI
